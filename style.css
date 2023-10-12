@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+select{
+    color: #000000;
+    
+}
+
+select :hover{
+    background-color: #ff0000;
+}
+
+header {
+    background-image: url('clg.jpg');
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 5cm;
+    background-size: cover;
+}
+header h1{
+    color: #000000;
+}
+header h2{
+    color: #000000;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    border: 2px solid #000000; 
+    padding: 20px;
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+form select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+form button {
+    background-color: #c14444;
+    color: #fff;
+    border:2px solid #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button{
+    background-color: #c14444;
+    color: #fff;
+    border:2px solid #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#appointment-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#appointment-list li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding from the list */
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px;
+    padding: 5px; /* Add spacing between navigation options */
+}
+
+nav a {
+    
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    background-color:#446cc1 ;
+    text-decoration: none; /* Remove underlines from links */
+    color: #000000; /* Set link text color */
+}
+
+/* Style links on hover (e.g., change color) */
+nav a:hover {
+    background-color: #446cc1; /* Change color on hover */
+}

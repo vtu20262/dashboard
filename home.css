@@ -1,0 +1,82 @@
+
+#appointment-list li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+ ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 5;
+    display: inline; /* Remove default padding from the list */
+}
+
+ li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px;
+    padding: 5px; /* Add spacing between navigation options */
+}
+
+ a {
+    
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    background-color:#446cc1 ;
+    text-decoration: none; /* Remove underlines from links */
+    color: #000000; /* Set link text color */
+}
+
+/* Style links on hover (e.g., change color) */
+nav a:hover {
+    background-color: #446cc1; /* Change color on hover */
+}
+li{
+    display: block;
+}
+
+li a{
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    background-color:#446cc1 ;
+    text-decoration: none; /* Remove underlines from links */
+    color: #000000;
+
+
+}
+header {
+    background-image: url('clg.jpg');
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5cm;
+}
+
+header h1{
+    color: #424446;
+    font-size: 50px;
+}
+header h2{
+    color: #000000;
+}
+select{
+    border: 2px solid #000000;
+}
+p{
+    padding: 10px 5px;
+}
+img {
+    max-width: 100%; /* Make the image responsive and fit the paragraph width */
+    display: block; /* Display the image as a block element */
+    margin: 10px auto; /* Center the image horizontally with margin space */
+    border: 2px solid #333; /* Add a border around the image */
+    border-radius: 5px; /* Add rounded corners to the border */
+}
+body{
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
